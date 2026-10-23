@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zr-potential-validation"
+version = "1.0.0"
+description = "Modular workflow generator for zirconium interatomic-potential validation"
+requires-python = ">=3.9"
+
+[project.scripts]
+zrvalidate = "zr_validation.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

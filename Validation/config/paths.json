@@ -1,0 +1,29 @@
+{
+  "potential_root": "***",
+  "output_root": "***",
+  "lammps_executable": "***",
+  "nlh_table": "***",
+  "nlh_table_name": "NLH",
+  "slurm_account": "***",
+  "batch_cores": 192,
+  "batch_time": "0-05:59",
+  "gsfe_configurations": {
+    "prism_I_1": "***",
+    "basal_1": "***",
+    "prism_I_2": "***",
+    "basal_2": "***",
+    "prism_II_1": "***",
+    "prism_II_2": "***",
+    "pyram_I_1_a": "***",
+    "pyram_I_1_a+c": "***",
+    "pyram_I_2": "***",
+    "pyram_II_1_a+c": "***",
+    "pyram_II_2": "***"
+  },
+  "neb_replicas": {
+    "SIA_basal": "***",
+    "SIA_nonbasal": "***",
+    "vacancy_basal": "***",
+    "vacancy_nonbasal": "***"
+  }
+}
